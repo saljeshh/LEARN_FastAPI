@@ -5,10 +5,6 @@
 - in fastapi docs routes of node.js = path operations
 - get and post method + postman
 
-## Screenshot of postman create_post api
-
-![Create_Post](./postman_ss/day1.png)
-
 # Day 2 of FastAPI
 
 - BaseModel, Optional field
@@ -20,6 +16,19 @@
 - path paramter and response status
 - HttpException
 
-## Screenshot of REST
+# Day 3 of FastAPI
 
-![Create_Post](./notes_ss/day2-i1.png)
+- Delete and update operation
+- .put() we need to send other keyvalue pair as well or output will be only what we send
+
+## Postgres
+
+- By default every Postgres installation comes with one database already created called "postgres"
+- This is important because Postgres requires you to specify the name of a database to make a connection. So there needs to always be one database.
+
+## After Installation
+
+- A table represents a subject or event in an application.
+- A UNIQUE constraint can be applied to any column to make sure every record has a unique value for that column.
+- By default NULL constraint is applied as any column can be blank.
+- NOT NULL constraint can be added to the column to ensure that the column is never left blank.
