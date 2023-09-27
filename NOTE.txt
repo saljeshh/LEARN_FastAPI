@@ -1,0 +1,10 @@
+// i stutided till crud in alchemy
+
+1.  Schema/ Pydantic Models define the structure of a request and response 
+    This ensure that when  a user wants to create a post, the request will only go through if it has a "title" and "content" in the body.
+    Goal is to provide validation
+
+2.  Sql ALCHEMY model
+    Responsible for defining the columns of our postss table within postgres
+    It is used to query, create, delete and update entries within the database 
+    // so model.dump() doesnt work in this
