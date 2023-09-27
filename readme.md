@@ -32,3 +32,18 @@
 - A UNIQUE constraint can be applied to any column to make sure every record has a unique value for that column.
 - By default NULL constraint is applied as any column can be blank.
 - NOT NULL constraint can be added to the column to ensure that the column is never left blank.
+
+# Day 4 of FastAPI
+
+- Learnt SQL in postgres and GUI of postgres
+
+# Day 5 of FastAPI
+
+- Finished Raw SQL + python
+
+# Day 6 of FastAPI
+
+- ORM Completed SQLAlchemy
+- Pydantic model + response Model completed
+- User Model and register
+- Hashing password - bcrypt and passlib pip
