@@ -4,6 +4,10 @@ from database import engine
 from routers import post
 from routers import user
 from routers import auth
+from config import settings
+
+
+print(settings.database_username)
 
 # creates all table of models for us
 models.Base.metadata.create_all(bind=engine)
